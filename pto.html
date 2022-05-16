@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title>PTO</title>
+  </head>
+  <body>
+    <div class="hero-container">
+      <div class="pto-navbar">
+        <div class="link"><a href="./index.html">Home</a></div>
+        <a href="https://www.bhico.com" target="_blank">BHI</a>
+      </div>
+      <h1>Welcome to the BHI PTO Form</h1>
+      <div class="pto-form">
+      <form action="https://httpbin.org/post" method="post">
+        
+        <div class="user-info">
+          
+          <label for="fname">First Name</label>
+          <input type="text" placeholder="John" required autocapitalize="words">
+
+          <label for="lname">Last Name</label>
+          <input type="text" placeholder="Doe" required autocapitalize="words">
+
+          <label for="email">Email</label>
+          <input type="email" name="email" required placeholder="jdoe@bhico.com">
+
+          <label for="phone"> phone</label>
+          <input type="phone" name="phone" placeholder="555-555-5555">
+        </div>
+
+        <div class="dates">
+          <label for="start-date">Starting Date</label>
+          <input type="date">
+          <label for="end-date">Ending Date</label>
+          <input type="date">
+        </div>
+
+        <div class="dropdown">
+          <label for="job-select">Select Job</label>
+          <select name="job-select">
+            <option value="Job1">Job 1</option>
+            <option value="Job2">Job 2</option>
+            <option value="Job3">Job 3</option>
+          </select>
+        </div>
+        <h2>I filled out all of the above material</h2>
+
+        <div class="radio-section">
+
+            <label for="radio">I understand</label>
+            <input type="radio" name="radio" value="accepted" />
+
+        
+            <label for="radio2">no bruh</label>
+            <input type="radio" name="radio" value="rejected" checked />
+        </div>
+        <div class="pto-type">
+          <h3>Select a PTO Type</h3>
+          <input type="checkbox" name="pto1" value="PTO"/>
+          <label for="pto1">PTO</label>
+          <input type="checkbox" name="pto2" value="With Out Pay"/>
+          <label for="pto2">With Out Pay</label>
+          <input type="checkbox" name="pto3" value="Paternity"/>
+          <label for="pto3">Paternity</label>
+          <input type="checkbox" name="pto4" value="Military" />
+          <label for="pto4">Military</label>
+        </div>
+        <div class="submit-button">
+          <input type="submit" value="Submit">
+        </div>
+        </form>
+      </div>
+      <footer class="pto-home">
+        <div class="link"><a href="./index.html">Home</a></div>
+        <a href="https://www.bhico.com" target="_blank">BHI</a>
+    </div>
+  </body>
+</html>
